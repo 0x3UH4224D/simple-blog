@@ -1,0 +1,125 @@
+//
+// default.css
+// This file is part of simple-blog
+//
+// Copyright (C) 2017 Muhannad Alrusayni 0x3UH4224D@gmail.com
+//
+// simple-blog is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 2 of the License, or
+// (at your option) any later version.
+//
+// simple-blog is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with simple-blog. If not, see <http://www.gnu.org/licenses/>.
+
+
+body {
+    background-color: rgb(250, 245, 255);
+}
+
+ul.navigation-bar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.navigation-bar li {
+    float: left;
+}
+
+ul.navigation-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+ul.navigation-bar li a:hover:not(.active) { background-color: #444; }
+
+ul.navigation-bar li a.active { background-color: #000; }
+
+ul.navigation-bar li.right { float: right; }
+
+div.box {
+    background-color: rgb(255, 255, 255);
+    /* border: 2px dashed; */
+    /* outline: #F0F0F0 solid 5px; */
+    padding: 10px;
+    border-bottom: 1px dashed silver;
+    border-left: 3px solid black;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+div.comment {
+    background-color: rgb(250, 250, 250);
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid silver;
+}
+
+div.auther {
+    font-style: italic;
+    color: silver;
+    border-bottom: 1px solid silver;
+    text-transform: capitalize;
+}
+
+h1.post-title {
+    text-transform: capitalize;
+    color: #383838;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+    /* font-size: 3em; */
+    font-weight: bold;
+    line-height: 0px;
+}
+
+a:link.editing-button, a:visited.editing-button {
+    background-color: #6180FF;
+    color: white;
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 6px 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    border: 1px dashed;
+}
+
+a:hover.editing-button, a:active.editing-button {
+    background-color: #519FEF;
+}
+
+a:link.read-more, a:visited.read-more {
+    background-color: #f44336;
+    color: white;
+    padding: 9px 18px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover.read-more, a:active.read-more {
+    background-color: red;
+}
+
+.post-contenet {
+    padding: 10px 0px;
+}
+
+div.login {
+
+}
